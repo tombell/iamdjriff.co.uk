@@ -1,0 +1,7 @@
+{
+  "name": "iamdjriff.co.uk",
+  "private": true,
+  "dependencies": {
+    "sass": "^1.32.0"
+  }
+}

@@ -1,5 +1,11 @@
 @import '//fonts.googleapis.com/css?family=Rubik:400,400i,700,700i';
 
+@mixin phone {
+  @media (max-device-width: 812px) {
+    @content;
+  }
+}
+
 body {
   background-image: url("http://tombell-static-assets.s3.amazonaws.com/iamdjriff.co.uk/background.jpg");
   background-position: center;
@@ -24,6 +30,10 @@ a {
   align-self: flex-end;
   font-size: 3em;
   margin: 1rem;
+
+  @include phone {
+    align-self: flex-start;
+  }
 
   &__item {
     margin-right: 1rem;

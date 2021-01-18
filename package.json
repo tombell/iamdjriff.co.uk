@@ -2,7 +2,8 @@
   "name": "iamdjriff.co.uk",
   "private": true,
   "scripts": {
-    "build": "sass --no-source-map public/css/styles.scss public/css/styles.css"
+    "build": "sass --no-source-map public/css/styles.scss public/css/styles.css",
+    "watch": "sass --watch --no-source-map public/css/styles.scss public/css/styles.css"
   },
   "dependencies": {
     "sass": "^1.32.0"
